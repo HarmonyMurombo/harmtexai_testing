@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harmtex-AI</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4EGPM7X7K2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-4EGPM7X7K2");
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="sidebar">
+        <p>Scroll down to ask Harmtex Artificial Intelligence</p>
+      </div>
+      <div id="chat_container"></div>
+      <form>
+        <textarea name="prompt" rows="1" cols="1" placeholder="Ask Harmtex AI ..." style="color: rgb(17, 15, 15); ::placeholder {color: white;}"></textarea>
+        <button type="submit"><img src="assets/send.svg"/></button>
+      </form>
+    </div>
+    <script type="module" src="/script.js"></script>
+    <div class="About">
+      <p>
+        &copy; Harmtex AI Corporation. All rights reserved 2023
+      </p>
+      <a href="style.css" target="_blank"></a>
+    </div>
+  </body>
+</html>
